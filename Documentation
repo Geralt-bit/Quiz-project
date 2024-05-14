@@ -1,0 +1,29 @@
+Purpose:
+The Quiz Question Bank is designed to store the questions for quizes, exams in a files and at the same time having a full control over it: editing, deleting, testing, etc.
+
+Design Decisions:
+1) Modular Design: The codebase is divided into functions and modules to enhance readability and maintainability.
+2) Visual Representation: A visual part of this code is really bad, but in the future updates it can be changed.
+3) Input Validation: Input validation is implemented to ensure that users provide valid syntaxes and operations.
+
+Algorithms used: 
+Classes and Objects: The QuestionBank class encapsulates the functionality related to managing a bank of quiz questions. It includes methods for adding, editing, deleting, displaying, and taking quizzes.
+
+Data Structures Employed: 
+The code employs the vector data structure from the Standard Template Library (STL) to store multiple instances of the Question struct.
+
+Functions/Modules created:
+1) addQuestion() : Used to add questions into the vector
+2) editQuestion() : Used to edit any question by their index
+3) deleteQuestion() : Used to delete any question by their index
+4) displayQuestions() : Used to display/printout all the questions in a bank
+5) takeQuiz() : Used to take a quiz with added questions
+
+How to Use the Software: 
+  Compilation and Setup:
+    1) Clone the repository.
+    2) Compile the source code using a C++ compiler.
+  Running the Program:
+    1) Execute the compiled program.
+  Menu options:
+    1) OPtions from 1-6.
