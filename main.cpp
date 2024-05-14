@@ -126,6 +126,7 @@ int main() {
             cout << "Enter the correct answer: ";
             getline(cin, newQuestion.correctAnswer);
             quizBank.addQuestion(newQuestion);
+            system("cls");
             cout << "Question added successfully!" << endl;
             break;
         }
@@ -140,19 +141,23 @@ int main() {
             cout << "Enter the updated correct answer: ";
             getline(cin, updatedQuestion.correctAnswer);
             quizBank.editQuestion(index - 1, updatedQuestion);
+            system("cls");
             break;
         }
         case '3': {
             int index;
+            system("cls");
             cout << "Enter the index of the question you want to delete: ";
             cin >> index;
             quizBank.deleteQuestion(index - 1);
             break;
         }
         case '4':
+            system("cls");
             quizBank.displayQuestions();
             break;
         case '5':
+            system("cls");
             quizBank.takeQuiz();
             break;
         case '6':
